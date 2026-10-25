@@ -136,10 +136,10 @@ st.sidebar.divider()
 page = st.sidebar.radio(
     "Navigation",
     [
-        "🏠 Financial Overview",
-        "☕ Spending Habits",
-        "🧠 Spending Personality",
-        "🔮 Budget Simulator"
+        "Financial Overview",
+        "Spending Habits",
+        "Spending Personality",
+        "Budget Simulator"
     ]
 )
 
