@@ -136,10 +136,10 @@ st.sidebar.divider()
 page = st.sidebar.radio(
     "Navigation",
     [
-        "Financial Overview",
-        "Spending Habits",
-        "Spending Personality",
-        "Budget Simulator"
+        "🏠 Financial Overview",
+        "💳 Spending Habits",
+        "🧠 Spending Personality",
+        "🔮 Budget Simulator"
     ]
 )
 
@@ -417,9 +417,9 @@ if page == "🏠 Financial Overview":
 # 8. PAGE 2 — SPENDING HABITS
 # ============================================================
 
-elif page == "☕ Spending Habits":
+elif page == "💳 Spending Habits":
 
-    st.title("☕ Spending Habits")
+    st.title("💳 Spending Habits")
 
     st.write(
         "Discover how small daily purchases "
